@@ -86,7 +86,7 @@ function App() {
     if (selectedRow && selectedRow.link && selectedRow.link !== "-") {
       const redirectUrl = `${selectedRow.link}?mapel=${encodeURIComponent(
         mapel
-      )}`;
+      )}&from=pkbm`;
       setActiveLink(redirectUrl); // tampilkan di iframe, URL browser tidak berubah
     } else {
       alert("Tidak ada link yang tersedia untuk pilihan ini.");
@@ -135,6 +135,7 @@ function App() {
         <iframe
           src={activeLink}
           title="Absensi"
+          allow="geolocation; camera; microphone"
           style={{ width: "100%", height: "100%", border: "none" }}
         />
       </div>
