@@ -114,24 +114,7 @@ function App() {
   // Kalau sudah pilih paket & mapel, tampilkan halaman tujuan di dalam iframe
   if (activeLink) {
     return (
-      <div style={{ position: "relative", width: "100%", height: "100vh" }}>
-        <button
-          onClick={handleBack}
-          style={{
-            position: "absolute",
-            top: "10px",
-            left: "10px",
-            zIndex: 10,
-            padding: "8px 14px",
-            backgroundColor: "#007bff",
-            color: "white",
-            border: "none",
-            borderRadius: "4px",
-            cursor: "pointer",
-          }}
-        >
-          ← Kembali
-        </button>
+      <div style={{ width: "100%", height: "100vh" }}>
         <iframe
           src={activeLink}
           title="Absensi"
