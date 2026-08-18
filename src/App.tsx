@@ -15,7 +15,7 @@ const STATIC_DATA = [
   {
     paket: "A (SD)",
     mapel: "PENJAS",
-    link: "https://pkbm-absensi-kasman.netlify.app/",
+    link: "https://pkbm-absensi-kasman.vercel.app/",
   },
   {
     paket: "B (SMP)",
@@ -40,7 +40,7 @@ const STATIC_DATA = [
   {
     paket: "B (SMP)",
     mapel: "PENJAS",
-    link: "https://pkbm-absensi-kasman.netlify.app/",
+    link: "https://pkbm-absensi-kasman.vercel.app/",
   },
   {
     paket: "C (SMA)",
@@ -70,7 +70,7 @@ const STATIC_DATA = [
   {
     paket: "C (SMA)",
     mapel: "PENJAS",
-    link: "https://pkbm-absensi-kasman.netlify.app/",
+    link: "https://pkbm-absensi-kasman.vercel.app/",
   },
 ];
 
